@@ -72,11 +72,13 @@ public class ForeignSubscriberTest {
         subscriberListActivity.menuButton.click();
         subscriberListActivity.optionEditButton.click();
         editInformationActivity.nextOptionButton.click();
-        //editInformationActivity.phoneTxBox.setText("2252677");
+        editInformationActivity.nameTxBox.setText("Abonado Editado");
+        editInformationActivity.nameTxBox.click();
+        editInformationActivity.phoneTxBox.click();
         editInformationActivity.saveButton.click();
         editInformationActivity.confirmationButton.click();
         editInformationActivity.optionBackButton.click();
-        editInformationActivity.optionBackButton.click();
+        //editInformationActivity.optionBackButton.click();
         //ELIMINACION
         subscriberListActivity.menuButton.click();
         subscriberListActivity.optionEliminateButton.click();

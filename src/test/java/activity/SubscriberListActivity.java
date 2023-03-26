@@ -6,9 +6,9 @@ import org.openqa.selenium.By;
 
 public class SubscriberListActivity {
 
-    public Button newSubscriberButton = new Button(By.id("bnb.com.bo.bnbmovil:id/2131363430"));
+    public Button newSubscriberButton = new Button(By.xpath("//android.widget.TextView[@content-desc=\"Adicionar\"]"));
 
-    public Button menuButton = new Button(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.ImageView"));
+    public Button menuButton = new Button(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[4]/android.widget.LinearLayout[2]"));
     //VER
     public Button optionSeeButton = new Button(By.id("bnb.com.bo.bnbmovil:id/2131363149"));
     //EDITAR
